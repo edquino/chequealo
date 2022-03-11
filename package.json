@@ -1,0 +1,56 @@
+{
+  "name": "chequealo",
+  "version": "1.0.0",
+  "description": "Sistemas de seguridad",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dateformat": "^5.0.2",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "firebase": "^9.6.5",
+    "firebase-admin": "^10.0.2",
+    "geopoint": "^1.0.1",
+    "handlebars.moment": "^1.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "log-to-file": "^3.0.0",
+    "md5": "^2.3.0",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "multer": "^1.4.4",
+    "node-datetime": "^2.1.2",
+    "nodemailer": "^6.7.2",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "pg": "^8.7.1",
+    "sharp": "^0.29.3",
+    "time-ago": "^0.2.1"
+  },
+  "_moduleAliases": {
+    "@aws": "aws",
+    "@config": "config",
+    "@lib": "lib",
+    "@views": "views",
+    "@models": "models",
+    "@controllers": "controllers",
+    "@routes": "routes",
+    "@middlewares": "middlewares",
+    "@public": "public"
+  }
+}

@@ -1,0 +1,58 @@
+<!-- ============================================================== -->
+<!-- Bread crumb and right sidebar toggle -->
+<!-- ============================================================== -->
+<div class="row page-titles">
+    <div class="col-md-5 align-self-center">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Administración</a></li>
+            <li class="breadcrumb-item active">Personas Usuarias</li>
+        </ol>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Bread crumb and right sidebar toggle -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<div class="row">
+    <div class="col-12">
+        <!-- table responsive -->
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Personas Usuarias</h4>
+                <h6 class="card-subtitle">Administración de Personas Usuarias</h6>
+                <div class="table-responsive m-t-40">
+                    <table id="config-table" class="table display table-bordered table-striped no-wrap">
+                        <thead>
+                            <tr>
+                                <th>T&iacute;tulo del Usuario/a</th>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                {{!-- <th>E-mail</th>
+                                <th>Tel&eacute;fono</th> --}}
+                                <th>Modificar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{#each users}}
+                            <tr>
+                                <td>{{usuario}}</td>
+                                <td>{{nombre}}</td>
+                                <td>{{apellido}}</td>
+                                <td>
+                                    <a href="/api-sat/users/{{id_usuario}}/edit-view" class="btn btn-secondary"
+                                        aria-pressed="false">
+                                        <i class="ti-pencil text" aria-hidden="true"></i>
+                                        <i class="ti-pencil-alt text-active" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

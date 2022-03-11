@@ -1,0 +1,2547 @@
+2022.02.07, 21:30:40.0830 UTC -> 
+archivo: state.controller
+ruta: src/controllers/front
+funcion: stateUpdate
+error: error: el mensaje de enlace (bind) entrega 3 parámetros, pero la sentencia preparada «» requiere 2
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.07, 21:40:18.0763 UTC -> 
+archivo: state.controller
+ruta: src/controllers/front
+funcion: stateUpdate
+error: error: el valor nulo en la columna «active» de la relación «chq_state» viola la restricción de no nulo
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:22.0954 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0097 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0101 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0244 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0249 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0395 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0400 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0502 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0511 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0627 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0632 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0744 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0749 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0888 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0893 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:23.0997 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0003 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0116 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0122 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0234 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0240 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0393 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0398 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0585 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0592 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0738 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0745 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0855 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0860 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0991 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:24.0995 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:25.0111 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:25.0116 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:25.0229 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:25.0233 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:25.0377 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:25.0382 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:25.0586 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:25.0594 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:26.0818 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:26.0951 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:26.0956 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0077 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0081 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0197 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0201 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0331 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0340 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0539 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0544 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0692 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0698 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0809 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0813 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0958 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:27.0963 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0098 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0104 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0220 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0224 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0350 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0357 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0580 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0586 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0742 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0747 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0858 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0862 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0974 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:28.0979 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:29.0117 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:29.0122 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:29.0225 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:29.0229 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:29.0405 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:29.0411 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:29.0603 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 18:43:29.0609 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «public.municipality»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:55.0431 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:55.0557 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:55.0563 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:55.0683 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:55.0688 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:55.0820 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:55.0824 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:55.0947 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:55.0965 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0096 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0100 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0202 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0208 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0314 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0319 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0440 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0447 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0556 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0563 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0678 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0682 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0820 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0825 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0940 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:56.0947 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:57.0115 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:57.0120 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:57.0293 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:57.0299 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:57.0432 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:57.0436 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:57.0711 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:57.0716 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:57.0847 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:57.0852 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:58.0009 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:58.0013 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:58.0221 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:58.0230 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:59.0366 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:59.0478 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:59.0482 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:59.0623 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:59.0628 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:59.0744 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:59.0749 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:59.0868 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:07:59.0872 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0000 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0005 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0203 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0208 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0325 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0329 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0436 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0440 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0581 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0585 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0710 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0714 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0822 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0827 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0954 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:00.0958 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:01.0126 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:01.0132 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:01.0326 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.08, 19:08:01.0332 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: getList
+error: error: no existe la relación «municipalities»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.09, 20:35:01.0920 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: update
+error: ReferenceError: id is not defined
+--------------------------------------------------------------------------------------------
+
+2022.02.09, 20:35:42.0954 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: update
+error: no existe la relación «municipalities»
+--------------------------------------------------------------------------------------------
+
+2022.02.09, 21:13:35.0223 UTC -> 
+archivo: municipality.controller
+ruta: src/controllers/front
+funcion: viewcreate
+error: error: no existe la columna «state»
+--------------------------------------------------------------------------------------------
+
+2022.02.11, 15:58:07.0400 UTC -> 
+archivo: administrators.controller
+ruta: src/controllers/front
+funcion: create
+error: el valor nulo en la columna «password» de la relación «chq_administrator» viola la restricción de no nulo
+--------------------------------------------------------------------------------------------
+
+2022.02.11, 16:23:49.0677 UTC -> 
+archivo: administrators.controller
+ruta: src/controllers/front
+funcion: create
+error: el valor nulo en la columna «password» de la relación «chq_administrator» viola la restricción de no nulo
+--------------------------------------------------------------------------------------------
+
+2022.02.11, 17:33:20.0932 UTC -> 
+archivo: administrators.controller
+ruta: src/controllers/front
+funcion: create
+error: llave duplicada viola restricción de unicidad «chq_administrator_email_key»
+--------------------------------------------------------------------------------------------
+
+2022.02.11, 17:34:30.0952 UTC -> 
+archivo: administrators.controller
+ruta: src/controllers/front
+funcion: updateAdmin
+error: no existe la columna «ative» en la relación «chq_administrator»
+--------------------------------------------------------------------------------------------
+
+2022.02.11, 17:41:54.0556 UTC -> 
+archivo: administrators.controller
+ruta: src/controllers/front
+funcion: updateAdmin
+error: no existe la columna «ative» en la relación «chq_administrator»
+--------------------------------------------------------------------------------------------
+
+2022.02.17, 19:27:29.0743 UTC -> 
+archivo: countries.controller
+ruta: src/controllers/front
+funcion: create
+error: error: error de sintaxis en o cerca de «)»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.17, 19:28:07.0406 UTC -> 
+archivo: countries.controller
+ruta: src/controllers/front
+funcion: create
+error: error: llave duplicada viola restricción de unicidad «chq_countries_pkey»
+    at Parser.parseErrorMessage (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (C:\Users\EDDY AQUINO\Desktop\CHEQUEALO\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    at readableAddChunk (_stream_readable.js:278:9)
+    at Socket.Readable.push (_stream_readable.js:217:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+--------------------------------------------------------------------------------------------
+
+2022.02.17, 19:35:31.0380 UTC -> 
+archivo: countries.controller
+ruta: src/controllers/front
+funcion: getById
+error: error: error de sintaxis en o cerca de «name»
+--------------------------------------------------------------------------------------------
+
+2022.02.18, 15:45:39.0645 UTC -> 
+archivo: personal_documents.controller
+ruta: src/controllers/front
+funcion: documentsCreate
+error: llave duplicada viola restricción de unicidad «chq_personal_documents_pkey»
+--------------------------------------------------------------------------------------------
+
+2022.02.18, 15:47:36.0165 UTC -> 
+archivo: personal_documents.controller
+ruta: src/controllers/front
+funcion: documentsCreate
+error: llave duplicada viola restricción de unicidad «chq_personal_documents_pkey»
+--------------------------------------------------------------------------------------------
+
+2022.02.18, 16:02:45.0098 UTC -> 
+archivo: personal_documents.controller
+ruta: src/controllers/front
+funcion: updateAccess
+error: ReferenceError: name is not defined
+--------------------------------------------------------------------------------------------
+
+2022.02.18, 20:39:57.0027 UTC -> 
+archivo: business_type.controller
+ruta: src/controllers/front
+funcion: create
+error: llave duplicada viola restricción de unicidad «chq_business_type_pkey»
+--------------------------------------------------------------------------------------------
+
+2022.02.18, 20:41:26.0059 UTC -> 
+archivo: business_type.controller
+ruta: src/controllers/front
+funcion: create
+error: llave duplicada viola restricción de unicidad «chq_business_type_pkey»
+--------------------------------------------------------------------------------------------
+
+2022.03.11, 06:49:03.0204 UTC -> 
+archivo: user.auth.controller
+ruta: src/controllers/back
+funcion: frontPhoto
+error: TypeError: Cannot read property '0' of undefined
+--------------------------------------------------------------------------------------------
+
+2022.03.11, 06:52:02.0445 UTC -> 
+archivo: user.auth.controller
+ruta: src/controllers/back
+funcion: frontPhoto
+error: TypeError: Cannot read property '0' of undefined
+--------------------------------------------------------------------------------------------
+
+2022.03.11, 06:53:28.0609 UTC -> 
+archivo: user.auth.controller
+ruta: src/controllers/back
+funcion: frontPhoto
+error: TypeError: Cannot read property '0' of undefined
+--------------------------------------------------------------------------------------------
+
+2022.03.11, 07:26:59.0573 UTC -> 
+archivo: user.auth.controller
+ruta: src/controllers/back
+funcion: frontPhoto
+error: TypeError: Cannot read property '0' of undefined
+--------------------------------------------------------------------------------------------
+
+2022.03.11, 07:39:16.0882 UTC -> 
+archivo: user.auth.controller
+ruta: src/controllers/back
+funcion: frontPhoto
+error: error de sintaxis en o cerca de «=»
+--------------------------------------------------------------------------------------------
+
+2022.03.11, 07:49:13.0131 UTC -> 
+archivo: user.auth.controller
+ruta: src/controllers/back
+funcion: frontPhoto
+error: TypeError: Cannot read property 'filename' of undefined
+--------------------------------------------------------------------------------------------
+
+2022.03.11, 08:46:21.0444 UTC -> 
+archivo: user.auth.controller
+ruta: src/controllers/back
+funcion: profile
+error: ReferenceError: adress is not defined
+--------------------------------------------------------------------------------------------
+

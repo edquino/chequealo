@@ -1,0 +1,43 @@
+{{#if warning}}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="alert alert-warning text-center p-2"
+            style="margin: 0; width: 40%; position:absolute; left:50%; margin-right:50%; transform: translate(-50%, -50%);">
+           {{warning}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span
+                    aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+{{/if}}
+
+{{#if delete}}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="alert alert-danger text-center p-2"
+            style="margin: 0; width: 40%; position:absolute; left:50%; margin-right:50%; transform: translate(-50%, -50%);">
+           {{delete}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span
+                    aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+{{/if}}
+
+{{#if success}}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="alert alert-success text-center p-2"
+            style="margin: 0; width: 40%; position:absolute; left:50%; margin-right:50%; transform: translate(-50%, -50%);">
+            {{!-- <i class="ti-user"></i>  --}}
+            {{success}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+            aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+<br>
+{{/if}}

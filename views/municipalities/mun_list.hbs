@@ -1,0 +1,67 @@
+{{!-- Start Nav --}}
+<div class="row">
+    <div class="col-md-12 grid-margin">
+        <div class="card">
+            <div class="template-demo">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/municipalities/list">Departamentos</a>
+                            {{!--
+                        <li class="breadcrumb-item"><a href="#">Data</a></li> --}}
+                        <li class="breadcrumb-item active" aria-current="page">Municipios > <u>{{selectedState.name}}</u></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+{{!--End Nav --}}
+
+{{!-- Button --}}
+<div class="col-12">
+    <div class="row">
+        <div class="mb-3">
+            <a href="/state/{{state_id}}/municipalities/create-view" class="btn btn-inverse-primary btn-fw">Nuevo + </a>
+        </div>
+    </div>
+</div>
+{{!-- End button --}}
+
+{{!-- Table --}}
+<div class="card">
+    <div class="card-body">
+        <div class="col-12">
+            <div class="row">
+                <div class="table-responsive">
+                    <table id="order-listing" class="table">
+                        <thead>
+                            <tr>
+                                <th>id_municipio #</th>
+                                <th>Nombre Municipio</th>
+                                <th>Estado</th>
+                                <th>Modificar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{#each municipalities }}
+                            <tr>
+                                <td>{{municipality_id}}</td>
+                                <td>{{name}}</td>
+                                <td>{{#stateDetails active}}{{/stateDetails}}
+                                </td>
+                                <td>
+                                    <a  href="/municipalities/{{municipality_id}}/update-view" class="btn btn-inverse-dark">
+                                        Actualizar
+                                    </a>
+                                </td>
+                            </tr>
+                            {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- End Table --}}

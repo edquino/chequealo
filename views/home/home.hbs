@@ -1,0 +1,145 @@
+<div class="row">
+    <div class="col-md-12 grid-margin">
+        <div class="row">
+            <div class="col-12 col-xl-5 mb-4 mb-xl-0">
+                <h4 class="font-weight-bold">Hola, Bienvenido</h4>
+                <h4 class="font-weight-normal mb-0">CHEQUEALO</h4>
+            </div>
+            <div class="col-12 col-xl-7">
+                <div class="d-flex align-items-center justify-content-between flex-wrap">
+                    <div class="border-right pr-4 mb-3 mb-xl-0">
+                        <p class="text-muted">Audiencias</p>
+                        <h4 class="mb-0 font-weight-bold">5</h4>
+                    </div>
+                    <div class="border-right pr-4 mb-3 mb-xl-0">
+                        <p class="text-muted">Notificaciones</p>
+                        <h4 class="mb-0 font-weight-bold">30</h4>
+                    </div>
+                    <div class="border-right pr-4 mb-3 mb-xl-0">
+                        <p class="text-muted">Empleados</p>
+                        <h4 class="mb-0 font-weight-bold">15</h4>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-title text-md-center text-xl-left"><span class="text-warning">Audiencias</small>
+                </p>
+                <div
+                    class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0"><span class="text-warning">210</small></h3>
+                    <i class="mdi mdi-calendar icon-md text-muted mb-0 mb-md-3 mb-xl-0"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-title text-md-center text-xl-left"><span class="text-success">Visitas</small>
+                </p>
+                <div
+                    class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0"><span class="text-success">340</small></h3>
+                    <i class=" mdi mdi-calendar-check icon-md text-muted mb-0 mb-md-3 mb-xl-0"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-title text-md-center text-xl-left"><span class="text-danger">Notificaciones</small>
+                </p>
+                <div
+                    class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0"><span class="text-danger">340</small></h3>
+                    <i class="mdi mdi-calendar-remove icon-md text-muted mb-0 mb-md-3 mb-xl-0"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-title text-md-center text-xl-left">EStablecimientos</p>
+                <div
+                    class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">6134</h3>
+                    <i class="mdi mdi-calendar-text icon-md text-muted mb-0 mb-md-3 mb-xl-0"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-title">Cantidad de Reservas Diarias</p>
+                <p class="text-muted font-weight-light">The total number of sessions within the date range. It is the
+                    period time a user is actively engaged with your website, page or app, etc</p>
+                <div class="d-flex flex-wrap mb-5">
+                    <div class="mr-5 mt-3">
+                        <p class="text-muted">Order value</p>
+                        <h3>12.3k</h3>
+                    </div>
+                    <div class="mr-5 mt-3">
+                        <p class="text-muted">Orders</p>
+                        <h3>14k</h3>
+                    </div>
+                    <div class="mr-5 mt-3">
+                        <p class="text-muted">Users</p>
+                        <h3>71.56%</h3>
+                    </div>
+                    <div class="mt-3">
+                        <p class="text-muted">Downloads</p>
+                        <h3>34040</h3>
+                    </div>
+                </div>
+                <canvas id="order-chart"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-title">Reporte de estimación de ventas</p>
+                <p class="text-muted font-weight-light">The total number of sessions within the date range. It is the
+                    period time a user is actively engaged with your website, page or app, etc</p>
+                <div id="sales-legend" class="chartjs-legend mt-4 mb-2"></div>
+                <canvas id="sales-chart"></canvas>
+            </div>
+            <div class="card border-right-0 border-left-0 border-bottom-0">
+                <div class="d-flex justify-content-center justify-content-md-end">
+                    <div class="dropdown flex-md-grow-1 flex-xl-grow-0">
+                        <button
+                            class="btn btn-lg btn-outline-light dropdown-toggle rounded-0 border-top-0 border-bottom-0"
+                            type="button" id="dropdownMenuDate2" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="true">
+                            Today
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuDate2">
+                            <a class="dropdown-item" href="#">January - March</a>
+                            <a class="dropdown-item" href="#">March - June</a>
+                            <a class="dropdown-item" href="#">June - August</a>
+                            <a class="dropdown-item" href="#">August - November</a>
+                        </div>
+                    </div>
+                    <button class="btn btn-lg btn-outline-light text-primary rounded-0 border-0 d-none d-md-block"
+                        type="button"> View all </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
