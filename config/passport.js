@@ -16,9 +16,9 @@ module.exports = function (passport) {
 
     //Login Administrator
     passport.use(
-        'login-user',
+        'login-admin-chq',
         new LocalStrategy({
-            usernameField: 'email',
+            usernameField: 'username',
             passwordField: 'password',
             passReqToCallback: true
         },
@@ -35,7 +35,6 @@ module.exports = function (passport) {
                         } else {
 
                             if (!bcrypt.compareSync(password, results.rows[0].password)) {
-                                console.log('despues entro al error');
                                 return done(null, false, req.flash('warning', 'Usuario o contraseña incorrectos'));
                             } else {    
 
@@ -69,7 +68,6 @@ module.exports = function (passport) {
                         } else {
 
                             if (!bcrypt.compareSync(password, results.rows[0].password)) {
-                                console.log('despues entro al error');
                                 return done(null, false, req.flash('warning', 'Usuario o contraseña incorrectos'));
                             } else {    
 
