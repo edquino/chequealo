@@ -2,7 +2,7 @@
   "name": "chequealo",
   "version": "1.0.0",
   "description": "Sistemas de seguridad",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
@@ -40,7 +40,8 @@
     "passport-local": "^1.0.0",
     "pg": "^8.7.1",
     "sharp": "^0.29.3",
-    "time-ago": "^0.2.1"
+    "time-ago": "^0.2.1",
+    "twilio": "^3.75.1"
   },
   "_moduleAliases": {
     "@aws": "aws",

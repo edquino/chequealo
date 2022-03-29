@@ -2545,3 +2545,10 @@ funcion: profile
 error: ReferenceError: adress is not defined
 --------------------------------------------------------------------------------------------
 
+2022.03.18, 21:57:33.0506 UTC -> 
+archivo: users.profile.controller
+ruta: src/controllers/back
+funcion: sendValidationEmail
+error: ReferenceError: moment is not defined
+--------------------------------------------------------------------------------------------
+

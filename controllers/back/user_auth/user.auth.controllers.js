@@ -5,6 +5,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const moment = require('moment');
 const sendemail = require('@lib/emails');
+const sendMessage = require('../../../lib/sms');
 
 
 const user = {};
@@ -28,7 +29,7 @@ user.profile = async (req, res) => {
         
         await db.query(`UPDATE chq_users SET username = $1, name = $2, lastname = $3, email = $4, gender_id = $5, cellphone = $6, 
         workplace = $7, workload = $8, workphone = $9, twitter = $10, facebook = $11, address = $12, 
-        document_detail = $13 WHERE user_id = $14 RETURNING*`,
+        document_detail = $13, version = CURRENT_TIMESTAMP WHERE user_id = $14 RETURNING*`,
         [ general_data.username,  general_data.name, general_data.lastname, general_data.email, general_data.gender_id,
             general_data.cellphone, contact_data.workplace, contact_data.workload, contact_data.workphone, contact_data.twitter, 
             contact_data.facebook, personal_data.address, personal_data.document_detail, user_id], (err, results) => {
@@ -302,13 +303,21 @@ user.sendVerificationOtp = async(req, res) =>{
 
                     otpcode = randomnumber1.toString() + "" + randomnumber2.toString() + "" + randomnumber3.toString() + "" + randomnumber4.toString();
                     
-                    await db.query(`INSERT INTO chq_recover_codes (email, code, expiration_date) VALUES($1, $2, $3) RETURNING*`, [user.email, otpcode, code_expiration], (err, results) =>{
+                    await db.query(`INSERT INTO chq_recover_codes (user_id,email, code, expiration_date) VALUES($1, $2, $3, $4) RETURNING*`, [user_id,user.email, otpcode, code_expiration], (err, results) =>{
                         if(err){
                             console.log(err.message);
                             return res.status(500).json(errorResponse.toJson());
                         }else{
                             let codeData = results.rows[0];
                     
+                    
+                            console.log(otpcode);
+
+                            sendMessage.message({
+                                body: `validation code: ${codeData.code}`,
+                                to: cellphone
+                            });
+
                             return res.status(201).json({
                                 user_id: user.user_id,
                                 otp_code: codeData.code
@@ -365,6 +374,7 @@ user.verifyOtpCode = async(req, res) =>{
                                         
                                         db.query('UPDATE chq_recover_codes SET active = 0 WHERE email = $1', [user.email]);
                                         return res.status(200).json({
+                                            version: user.version,
                                             general_data: {
                                                 "user_id": user.user_id,
                                                 "user_name": user.username,
@@ -458,7 +468,7 @@ user.sendRecoverEmail = async (req, res) => {
                 let user = results.rowCount;
                 if(user > 0){
                     await db.query('UPDATE chq_recover_codes SET active = 0 WHERE email = $1', [email]);
-                    await db.query('INSERT INTO chq_recover_codes (email, code, expiration_date) VALUES ($1, $2, $3)', [email, code, expiration_date], (err, results) => {
+                    await db.query('INSERT INTO chq_recover_codes (user_id,email, code, expiration_date) VALUES ($1, $2, $3, $4)', [results.rows[0].user_id,email, code, expiration_date], (err, results) => {
                         if (err) {
                             console.log(err.message);
                             return res.status(500).json(errorResponse.toJson());
@@ -519,7 +529,7 @@ user.resetPassword = async (req, res) => {
                     
                     if(isafter){
                                             
-                        await db.query('UPDATE chq_users SET password = $1 WHERE email = $2 AND active = 1 RETURNING*', [ cryptedPass, userData.email], (err, results) =>{
+                        await db.query('UPDATE chq_users SET password = $1, version = CURRENT_TIMESTAMP WHERE email = $2 AND active = 1 RETURNING*', [ cryptedPass, userData.email], (err, results) =>{
                             if(err){
                                 console.log(err.message);
                                 return res.status(500).json(errorResponse.toJson());
@@ -575,13 +585,18 @@ user.userPhoto = async (req, res) => {
             photo_path = 'uploads/' + req.file.filename;
         }
 
-        await db.query('UPDATE chq_users SET picture = $1 WHERE user_id = $2 RETURNING*', [photo_path, user_id], (err, results) => {
+      
+        await db.query('UPDATE chq_users SET picture = $1, version = CURRENT_TIMESTAMP WHERE user_id = $2 RETURNING*', [photo_path, user_id], async (err, results) => {
             if(err){
+                errorResponse.detail = err.message;
                 log('src/controllers/back', 'user.auth', 'userPhoto', err.message, true, req, res);
+                return res.status(500).json(errorResponse.toJson());
             }else{
                 let userPhoto = results.rows[0];
+                version = version + 0.1;
+                await db.query('UPDATE chq_users SET version = $1 WHERE user_id = $2',[version,user_id]);
                 return res.status(200).json({
-                    message: userPhoto.picture
+                    path: userPhoto.picture
                 });
             }
         });
@@ -607,7 +622,7 @@ user.frontPhoto = async (req, res) => {
             photo_path = 'uploads/' + req.file.filename;
         }
 
-        await db.query('UPDATE chq_users SET document_photo1 = $1 WHERE user_id = $2 RETURNING*', [photo_path, user_id], (err, results) => {
+        await db.query('UPDATE chq_users SET document_photo1 = $1,version = CURRENT_TIMESTAMP WHERE user_id = $2 RETURNING*', [photo_path, user_id], (err, results) => {
             if(err){
                 log('src/controllers/back', 'user.auth', 'frontPhoto', err.message, true, req, res);
             }else{
@@ -637,7 +652,7 @@ user.backPhoto = async (req, res) => {
             photo_path = 'uploads/' + req.file.filename;
         }
 
-        await db.query('UPDATE chq_users SET document_photo2 = $1 WHERE user_id = $2 RETURNING*', [photo_path, user_id], (err, results) => {
+        await db.query('UPDATE chq_users SET document_photo2 = $1, version = CURRENT_TIMESTAMP WHERE user_id = $2 RETURNING*', [photo_path, user_id], (err, results) => {
             if(err){
                 log('src/controllers/back', 'user.auth', 'backPhoto', err.message, true, req, res);
             }else{

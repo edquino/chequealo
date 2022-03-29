@@ -17,13 +17,18 @@ INSERT INTO chq_administrator (username, password, name, lastname, email) VALUES
 --CREATE TABLE RECOVER CODES 
 CREATE TABLE chq_recover_codes (
     code_id SERIAL PRIMARY KEY,
+    user_id INT NOT NULL,
     email VARCHAR NOT NULL,
     code VARCHAR NOT NULL,
     expiration_date VARCHAR,
     active INT NOT NULL DEFAULT 1,
     reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    mod_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    mod_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT chq_users_id_fkey FOREIGN KEY (user_id)
+    REFERENCES chq_users (user_id)
 );
+
+
 
 --CREATE TABLE GENDER
 CREATE TABLE chq_gender (
@@ -174,7 +179,7 @@ CREATE TABLE chq_users(
     active INT NOT NULL DEFAULT 1,
     reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     mod_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-
+    version timestamp without time zone NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT chq_countries_country_id_fkey FOREIGN KEY (country_id)
     REFERENCES chq_countries (country_id)
     ON UPDATE NO ACTION
